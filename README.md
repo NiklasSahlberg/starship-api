@@ -13,16 +13,8 @@ A Kotlin Spring Boot application that provides a RESTful API for managing and re
 - **Spring Boot**
 - **JUnit**
 - **Mockito Kotlin**
+- **Gradle**
 
-## API Endpoints
-
-### Get Top 10 Most Expensive Starships
-
-- **Endpoint**: `GET /api/v1/starships/most-expensive`
-- **Response**: 
-  - Status: `200 OK` - Returns a list of the top ten most expensive starships.
-  - Status: `204 No Content` - No starships available.
- 
 # How to Run the Starship Application in IntelliJ IDEA
 
 Follow this guide to set up and run the Kotlin Spring Boot application with Gradle using IntelliJ IDEA.
@@ -51,3 +43,28 @@ Follow this guide to set up and run the Kotlin Spring Boot application with Grad
 4. **Run the application**:
    - Open the `StarshipApplication.kt` file located in `src/main/kotlin/com/example/starship`.
    - Right-click on the file and select **Run 'StarshipApplication.kt'** to start the application.
+
+## API Usage
+
+### Get Top 10 Most Expensive Starships
+
+- **Endpoint**: `GET /api/v1/starships/most-expensive`
+- **Response**: 
+  - Status: `200 OK` - Returns a list of the top ten most expensive starships.
+  - Status: `204 No Content` - No starships available.
+    
+
+To interact with the Starship API, you can use **Postman** or your web browser. Here’s how to call the API endpoint:
+
+### Using Postman
+
+1. Open **Postman**.
+2. Select `GET` from the dropdown menu.
+3. Enter the URL: `http://localhost:8080/api/v1/starships/most-expensive`.
+4. Click **Send**.
+
+### Using Your Web Browser
+
+Simply enter the URL `http://localhost:8080/api/v1/starships/most-expensive` into your web browser's address bar and press **Enter**.
+
+
