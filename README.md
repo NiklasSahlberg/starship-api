@@ -43,10 +43,10 @@ Follow this guide to set up and run the Kotlin Spring Boot application with Grad
 3. **Select the Right JDK**:
    - The project requires **JDK 17 or higher**.
    - In IntelliJ, go to **File** > **Project Structure** > **Project**.
-   - Under **Project SDK**, select **Java 17** (or any higher version). If it's not available:
+   - Under **Project SDK**, select any **Java 17** version. If it's not available:
      - Click **Add SDK** > **Download JDK**.
-     - Choose version **17 or higher** and download it directly through IntelliJ.
-   - Alternatively, if you have JDK 17 or higher installed manually, make sure your `JAVA_HOME` environment variable is set accordingly.
+     - Choose version **any 17 version** and download it directly through IntelliJ.
+   - Alternatively, if you have JDK installed manually, make sure your `JAVA_HOME` environment variable is set accordingly.
 
 4. **Run the application**:
    - Open the `StarshipApplication.kt` file located in `src/main/kotlin/com/example/starship`.
